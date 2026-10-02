@@ -20,7 +20,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class UpdateCheckReceiver extends BroadcastReceiver {
-    private static final String API = "https://script.google.com/macros/s/AKfycbyjTV3BcPjYhXEDFlRhw0P-ZNDR7_k47N3emxak9ccgB2iHjUadognpyWUTBaZe07bu/exec?action=all";
+    private static final String API = "https://script.google.com/macros/s/AKfycbwpMVP0rN61F7uVL1znqycdLCZ-Dlz7TWnHT9VdVjmXYFoTbJM48DN6clKN6SmSxRX2/exec?action=all";
 
     @Override
     public void onReceive(Context context, Intent intent) {
